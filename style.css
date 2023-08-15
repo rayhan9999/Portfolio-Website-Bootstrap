@@ -1,0 +1,43 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    background: #FFEED9;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: sans-serif;
+}
+
+.bg-custom {
+    background: #FFDDBF;
+}
+
+.btn-color {
+    background: #4E5E80;
+    padding: 8px 20px;
+}
+
+.btn-color:hover {
+    background: black;
+    color: white;
+}
+
+.w-md-50 {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #594F43;
+}
+
+
+@media screen and (max-width:768px) {
+    .w-md-50 {
+        width: 100%;
+    }
+
+
+}
